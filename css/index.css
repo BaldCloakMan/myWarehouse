@@ -1,0 +1,1184 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+
+body {
+	background: #f5f5f5;
+}
+
+#big_img {
+	width: 100%;
+	height: 540px;
+	position: relative;
+	z-index: 100;
+}
+
+#big_img img {
+	width: 1920px;
+	height: 100%;
+}
+
+#big_img>div>div {
+	width: 1920px;
+	height: 100%;
+	margin: 0 auto;
+}
+
+#big_img>div>div>div {
+	width: 1920px;
+	height: 100%;
+	float: left;
+}
+
+.Automatically_img_box {
+	width: 1920px;
+	height: 540px;
+	background: red;
+	margin: 0 auto;
+	position: relative;
+	overflow: hidden;
+}
+
+.auto_img_btn {
+	position: absolute;
+	bottom: 15px;
+	left: 38%;
+	z-index: 77;
+}
+
+.auto_img_btn li {
+	width: 10px;
+	height: 10px;
+	float: left;
+	margin-left: 10px;
+	border-radius: 5px;
+	background: red;
+}
+
+.auto_img_btn .active {
+	background: blue;
+}
+
+.Automatically_img_box span {
+	display: block;
+	height: 40px;
+	width: 30px;
+	background: orchid;
+	position: absolute;
+	top: 45%;
+	z-index: 999;
+}
+
+.Automatically_img_box span:nth-child(3) {
+	left: 100px;
+}
+
+.Automatically_img_box span:nth-child(4) {
+	right: 471px;
+}
+
+#big_img>div .Automatically_box {
+	/*transition: 2s;*/
+	width: 1190px;
+	height: 540px;
+	position: absolute;
+	top: 0;
+	left: 0;
+}
+
+#big_img .Automatically_img_box .zuobtn {
+	border-radius: 5px;
+	background: url(../img/left.png) no-repeat rgba(0, 0, 0, 0.1);
+	background-size: 100% 100%;
+}
+
+#big_img .Automatically_img_box .youbtn {
+	border-radius: 5px;
+	background: url(../img/right.png) no-repeat rgba(0, 0, 0, 0.1);
+	background-size: 100% 100%;
+}
+
+.Automatically_img_box>div>div {
+	position: absolute;
+	top: 0;
+	left: 0;
+	transition: 2s;
+}
+
+.chengji {
+	z-index: 66;
+}
+
+#Top_brands {
+	width: 1190px;
+	height: 377px;
+	margin: 0 auto;
+}
+
+.Top_brands_nav {
+	width: 875px;
+	height: 60px;
+	float: left;
+	line-height: 60px;
+	background: #FFFFFF;
+}
+
+.Top_brands_nav li:nth-child(1) {
+	background: #CE0000;
+	color: #fff;
+}
+
+.Hot_push li,
+.Liquor_name_nav a,
+.Top_brands_nav li,
+.Menu li div:nth-child(1),
+.auto_img_btn li,
+.zuobtn,
+.youbtn,
+.kill_now_buy,
+.Liquor_commodity li,
+.Liquor_top li,.Liquor_top img,
+.Zone_advertising li,
+.tiaozhuan a {
+	cursor: pointer;
+}
+
+.Liquor_brands_box {
+	width: 876px;
+	height: 300px;
+	float: left;
+	background: #fff;
+	position: relative;
+}
+
+.Liquor_brands_box span {
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	background: rgba(0, 0, 0, 0.7);
+	color: #fff;
+	z-index: 999;
+	display: none;
+}
+
+.Liquor_brands_box span p:nth-child(1) {
+	width: 100%;
+	height: 18px;
+	margin: 30px 0 14px;
+	text-align: center;
+	font-size: 12px;
+	line-height: 18px;
+}
+
+.Liquor_brands_box span p:nth-child(2) {
+	display: block;
+	width: 78px;
+	height: 24px;
+	margin: 0 auto;
+	line-height: 24px;
+	text-align: center;
+	border-radius: 12px;
+	background: #c60000;
+	cursor: pointer;
+}
+
+.Top_brands_nav ul {
+	width: 280px;
+	height: 24px;
+	float: left;
+	line-height: 24px;
+	margin-top: 18px;
+	margin-left: 18px;
+}
+
+.Top_brands_nav h3 {
+	padding-left: 15px;
+	display: block;
+	width: 80px;
+	height: 60px;
+	float: left;
+	font-size: 20px;
+}
+
+.Top_brands_nav li {
+	width: 60px;
+	background: #f2f2f2;
+	float: left;
+	text-align: center;
+	border-radius: 2px;
+}
+
+.Top_brands_nav li~li {
+	margin-left: 13.2px;
+}
+
+.Show_img {
+	width: 238px;
+	height: 300px;
+	float: left;
+	background: #172C45;
+}
+
+.Show_img img {
+	width: 100%;
+	height: 100%;
+}
+
+.Liquor_brands_box>div~div {
+	width: 636px;
+	height: 300px;
+	margin-left: 1px;
+	position: absolute;
+	top: 0;
+	right: 0;
+	overflow: hidden;
+}
+
+.Liquor_brands_box>div~div div {
+	width: 158px;
+	height: 99px;
+	float: left;
+	border-right: solid 1px rgb(238, 238, 238);
+	position: relative;
+	border-top: solid 1px rgb(238, 238, 238);
+	text-align: center;
+	line-height: 99px;
+}
+
+.Liquor_brands_box>div~div div:hover span {
+	display: block;
+}
+
+.Liquor_brands_box>div~div img {
+	width: 132px;
+	height: 80px;
+}
+
+.Login_registration {
+	width: 300px;
+	height: 362px;
+	background: #fff;
+	float: right;
+}
+
+.Login_registration>div {
+	width: 300px;
+	height: 112.78px;
+	margin: 0;
+	text-align: center;
+	float: lef;
+}
+
+.Login_registration img {
+	margin-top: 15px;
+	width: 80px;
+	height: 80px;
+}
+
+.Login_registration>div>span {
+	width: 100%;
+	height: 17.78px;
+	margin-top: 15px;
+	float: left;
+}
+
+.Login_registration>div:nth-child(2) {
+	width: 260px;
+	height: 23.78px;
+	float: left;
+	margin-left: 20px;
+	margin-top: 28px;
+}
+
+.Login_registration>div:nth-child(2)>a {
+	display: block;
+	width: 72px;
+	height: 21.78px;
+	border: 1px solid #000;
+	float: left;
+	line-height: 23.78px;
+}
+
+.Login_registration>div:nth-child(2)>a~a {
+	margin-left: 19px;
+}
+
+.Login_registration>div:nth-child(2)>a:last-child {
+	border: solid 1px #ce0000;
+	background: #ce0000;
+	color: white;
+}
+
+.Login_registration>div:nth-child(3) {
+	width: 260px;
+	height: 27.56px;
+	text-align: left;
+	line-height: 27.56px;
+	margin: 15px 0 5px 20px;
+	float: left;
+}
+
+.Login_registration>div:nth-child(3) p {
+	font-size: 15px;
+	height: 27.56px;
+	color: #333;
+}
+
+.Login_registration>div:nth-child(3) span {
+	width: 100px;
+	height: 27.56px;
+	float: right;
+	text-align: right;
+	font-size: 14px;
+	color: #666;
+}
+
+.Login_registration>div:nth-child(4) {
+	width: 260px;
+	height: auto;
+	font-size: 14px;
+	text-align: left;
+	margin-left: 20px;
+	line-height: 27.56px;
+	color: #666;
+}
+
+.Login_registration>div:nth-child(4) p {
+	float: left;
+	width: 260px;
+}
+
+#Collar_center {
+	width: 1190px;
+	height: 155px;
+	margin: 0 auto;
+}
+
+#Collar_center>img {
+	width: 230px;
+	height: 140px;
+	float: left;
+	margin-top: 15px;
+}
+
+#Collar_center li {
+	width: 230px;
+	height: 140px;
+	background: white;
+	float: left;
+	margin: 15px 0 0 10px;
+}
+
+#Collar_center li>div {
+	width: 186px;
+	height: 135px;
+	margin-top: 2.5px;
+	float: left;
+}
+
+#Collar_center li a {
+	display: block;
+	width: 42px;
+	height: 140px;
+	float: right;
+	background: url(../img/get.png) no-repeat;
+}
+
+#Collar_center li>div span {
+	font-size: 12px;
+	color: #ff7747;
+}
+
+#Collar_center li>div>div:first-child {
+	margin: 20px 0 16px;
+}
+
+#Collar_center li>div div {
+	padding-left: 10px;
+	font-size: 22px;
+	color: #ff7747;
+}
+
+#Collar_center li>div div~div {
+	line-height: 16px;
+}
+
+#Collar_center li>div div:nth-child(2) span {
+	color: #333;
+}
+
+#Collar_center li>div div:nth-child(2)~div span {
+	color: #999;
+}
+
+#Collar_center li>div div:last-child {
+	line-height: 32px;
+}
+
+#Collar_center li a span {
+	display: block;
+	width: 22px;
+	text-align: center;
+	margin-left: 10px;
+	padding: 25px 0;
+	line-height: 22px;
+	color: #fff;
+}
+
+#current_Shopping {
+	width: 1190px;
+	height: 381px;
+	margin: 0 auto;
+	background: #fff;
+}
+
+.countdown {
+	width: 1190px;
+	height: 59.8px;
+	margin: 0 auto;
+	background: #fff;
+	line-height: 68px;
+	border-bottom: 1px solid rgb(238, 238, 238);
+}
+
+.countdown img {
+	padding-left: 20px;
+	margin-top: -8px;
+}
+
+.countdown span {
+	padding-left: 10px;
+	font-size: 14px;
+}
+
+.over_time {
+	width: 230px;
+	height: 60.8px;
+	float: right;
+	padding: 0 5px 0 0;
+}
+
+.over_time>div {
+	width: 94px;
+	height: 60.8px;
+	float: left;
+	line-height: 60.8px;
+}
+
+.over_time>div~div {
+	width: 136px;
+	height: 60.8px;
+	float: right;
+}
+
+.over_time>div~div span {
+	display: block;
+	float: left;
+	margin-top: 16.4px;
+	padding: 0;
+	text-align: center;
+	line-height: 28px;
+	color: white;
+	border-radius: 3px;
+}
+
+.over_time>div~div span {
+	width: 20px;
+	height: 28px;
+}
+
+.over_time>div~div span:first-child {
+	margin-left: 12px;
+}
+
+.current_Shopping_content {
+	width: 990px;
+	height: 320px;
+	float: left;
+}
+
+.More_hot {
+	width: 200px;
+	height: 320px;
+	float: right;
+}
+
+.current_Shopping_content li {
+	width: 197px;
+	height: 320px;
+	float: left;
+	border-left: 1px solid rgb(238, 238, 238);
+}
+
+.current_Shopping_content li img {
+	width: 196px;
+	height: 178px;
+}
+
+.Kill_name {
+	width: 198px;
+	height: 32px;
+	line-height: 32px;
+}
+
+.Kill_name span {
+	display: block;
+	width: 174px;
+	height: 32px;
+	margin: 0 12px;
+	overflow: hidden;
+	text-overflow: ellipsis;
+	white-space: nowrap;
+}
+
+.Kill_price {
+	width: 198px;
+	height: 29.6px;
+	line-height: 29.6px;
+	margin-bottom: 10px;
+}
+
+.Kill_price>span:nth-child(1) {
+	font-size: 20px;
+	float: left;
+	padding-left: 12px;
+}
+
+.Kill_price>span>span {
+	font-size: 12px;
+}
+
+.Kill_price>span:nth-child(2) {
+	display: block;
+	width: 48.68px;
+	height: 29.6px;
+	float: right;
+	text-decoration: line-through;
+}
+
+.kill_inventory {
+	width: 176px;
+	height: 20px;
+	margin-left: 11px;
+	overflow: hidden;
+}
+
+.Kill_progress_bar {
+	width: 130px;
+	height: 10px;
+	background: #ededed;
+	border-radius: 5px;
+	margin-top: 5px;
+	float: left;
+	position: relative;
+}
+
+.Kill_progress_bar>span {
+	height: 10px;
+	border-radius: 5px;
+	background: #FF9999;
+	position: absolute;
+	top: 0;
+	left: 0;
+}
+
+.Remaining {
+	width: 36px;
+	height: 20px;
+	line-height: 20px;
+	float: right;
+	color: #666666;
+}
+
+.kill_now_buy {
+	width: 88px;
+	height: 24px;
+	background: #CE0000;
+	margin: 12px auto 0;
+	border-radius: 12px;
+	text-align: center;
+	line-height: 24px;
+	color: white;
+}
+
+.kill_img {
+	width: 200px;
+	height: 320px;
+	text-align: center;
+	line-height: 320px;
+	float: left;
+}
+
+#zone_content_box {
+	margin: 0 auto;
+	width: 1190px;
+	height: 100%;
+}
+
+#Liquor_zone {
+	width: 1190px;
+	height: 761px;
+	background: rgb(245, 245, 245);
+	margin: 30px 0;
+	position: relative;
+}
+
+.Liquor_zone_nav {
+	width: 1150px;
+	height: 61px;
+	padding: 0 20px;
+	background: white;
+}
+
+.Liquor_zone_head {
+	width: auto;
+	height: 60px;
+	float: left;
+}
+
+.Level_liquor {
+	color: white;
+}
+
+.Liquor_place {
+	width: 190px;
+	height: 42.8px;
+	float: left;
+}
+
+.Level {
+	display: block;
+	width: 30px;
+	height: 30px;
+	margin-top: 15px;
+	line-height: 30px;
+	text-align: center;
+	font-size: 18px;
+	float: left;
+}
+
+.Level_liquor {
+	background: #3b819d;
+}
+
+.Zone_name {
+	line-height: 60px;
+	font-size: 20px;
+	float: left;
+	padding: 0 10px;
+}
+
+.Liquor_place a {
+	width: auto;
+	display: block;
+	padding: 22px 5px 0;
+	float: left;
+	font-size: 14px;
+}
+
+.Hot_push {
+	width: 280px;
+	height: 22px;
+	float: right;
+	margin-top: 19.5px;
+	line-height: 22px;
+}
+
+.Hot_push li:nth-child(1) {
+	color: white;
+}
+
+.Hot_push ul {
+	float: right;
+}
+
+.Hot_push li {
+	width: 60px;
+	height: 22px;
+	float: left;
+	text-align: center;
+	margin: 0 10px 0 0;
+	background: #cc0000;
+}
+
+.Hot_push li~li {
+	background: #f2f2f2;
+}
+
+.Liquor_zone_content {
+	background: yellowgreen;
+	height: 550px;
+	float: left;
+}
+
+.Liquor_imgs_box {
+	width: 290px;
+	height: 550px;
+	float: left;
+	position: relative;
+}
+
+.Liquor_imgs_box img {
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+}
+
+.Liquor_imgs_box img:nth-of-type(1) {
+	z-index: 55;
+}
+
+.Liquor_name_nav {
+	width: 272px;
+	height: 70px;
+	position: absolute;
+	bottom: 15px;
+	padding: 0 9px;
+	z-index: 999;
+}
+
+.Liquor_name_nav a {
+	display: block;
+	width: 60px;
+	height: 25px;
+	float: left;
+	text-align: center;
+	line-height: 25px;
+	margin: 10px 4px 0;
+	background: #FFF;
+}
+
+.Liquor_name_nav a~a {
+	background: rgba(255, 255, 255, 0.6);
+}
+
+.Liquor_commodity {
+	width: 594px;
+	height: 550px;
+	float: left;
+	background: rgb(238, 238, 238);
+	margin: 0 12px;
+	overflow: hidden;
+	border-top: 1px solid rgb(238, 238, 238);
+}
+
+.Liquor_commodity li {
+	width: 197px;
+	height: 275px;
+	background: #fff;
+	float: left;
+	margin: 0 1px 1px 0;
+	text-align: center;
+}
+
+.Liquor_commodity li img {
+	width: 160px;
+	height: 160px;
+	margin-top: 10px;
+	/*overflow: hidden;*/
+}
+
+.Liquor_commodity li p {
+	width: 177px;
+	height: 38px;
+	text-align: left;
+	margin: 0 auto;
+	margin-top: 6px;
+}
+
+.Myself_box {
+	padding: 0 0 0 10px;
+	text-align: left;
+}
+
+.Myself_box>span:nth-child(1) {
+	display: block;
+	width: 28px;
+	height: 16px;
+	border: 1px #CE0000 solid;
+	background: #FFF;
+	border-radius: 3px;
+	text-align: center;
+	line-height: 16px;
+}
+
+.Myself_box>span:nth-child(2) {
+	line-height: 30px;
+	font-size: 18px;
+	color: #CE0000;
+	font-weight: bold;
+}
+
+.Myself_box>span:nth-child(2)>span {
+	font-size: 12px;
+	font-weight: 400;
+}
+
+.Liquor_top {
+	width: 282px;
+	height: 550px;
+	float: right;
+	background: #fff;
+}
+
+.Liquor_top_head {
+	width: 272px;
+	height: 38px;
+	background: #3B819D;
+	font-size: 16px;
+	line-height: 38px;
+	padding-left: 10px;
+	color: #fff;
+}
+
+.Liquor_top>img {
+	display: block;
+	width: 282px;
+	height: 160px;
+}
+
+.Liquor_top li {
+	width: 262px;
+	height: 105px;
+	margin: 0 auto;
+}
+
+.Liquor_top p {
+	height: 39.6px;
+}
+
+.Liquor_top li>div:nth-child(1) {
+	width: 16px;
+	height: 16px;
+	background: #ce0000;
+	color: white;
+	text-align: center;
+	line-height: 16px;
+	float: left;
+}
+
+.Liquor_top li>div {
+	margin-top: 8px;
+}
+
+.Liquor_top li>div:nth-child(2) {
+	width: 246px;
+	height: 88px;
+	float: left;
+}
+
+.Liquor_top li img {
+	width: 88px;
+	height: 88px;
+	float: left;
+}
+
+.Liquor_top li>div>div {
+	width: 148px;
+	height: 78.6px;
+	float: left;
+	margin-left: 5px;
+}
+
+.Liquor_top li>div>div>div {
+	width: auto;
+	height: auto;
+	display: block;
+}
+
+.Liquor_top li span {
+	display: inline-block;
+	border: 1px #fc8f02 solid;
+	color: #fc8f02;
+	border-radius: 3px;
+}
+
+.Liquor_top li:nth-child(2)~li {
+	height: 39.6px;
+	line-height: 32px;
+}
+
+.Liquor_top li:nth-child(2)~li div {
+	background: #cccccc;
+}
+
+.Liquor_top li:nth-child(2)~li a {
+	display: inline-block;
+	width: 240px;
+	margin-left: 5px;
+	overflow: hidden;
+	text-overflow: ellipsis;
+	white-space: nowrap
+}
+
+.Zone_advertising {
+	width: 1190px;
+	height: 140px;
+	margin-top: 10px;
+	float: left;
+}
+
+.Zone_advertising li {
+	float: left;
+}
+
+.Zone_advertising li img {
+	width: 230px;
+	height: 140px;
+}
+
+.Zone_advertising li~li {
+	margin-left: 10px;
+}
+
+.alljiu {
+	position: absolute;
+	right: 0;
+	width: 888px;
+	height: 550px;
+	overflow: hidden;
+	background: white;
+}
+
+.alljiu li img {
+	width: 160px;
+	height: 160px;
+}
+
+.alljiu li {
+	float: left;
+	width: 156px;
+	height: 255px;
+	padding: 10px;
+	border-top: 1px solid rgb(229, 229, 229);
+	border-right: 1px solid rgb(229, 229, 229);
+}
+
+.alljiu li .mingzi {
+	height: 38px;
+}
+
+.alljiu li .qian {
+	height: 26.4px;
+	font-size: 18px;
+	color: #CE0000;
+	line-height: 30.4px;
+}
+
+.alljiu li .qian span {
+	font-size: 12px;
+}
+
+.alljiu li .biao {
+	height: 18.2px;
+}
+
+.alljiu li .biao span {
+	display: block;
+	width: 28px;
+	height: 16px;
+	border: 1px solid #CE0000;
+	line-height: 16px;
+	text-align: center;
+	border-radius: 3px;
+}
+
+.baijiuliebiao,
+.qitaliebiao,
+.pijiuliebiao,
+.yangjiuliebiao,
+.ptliebiao {
+	display: none;
+}
+
+.xs,
+.qtxs,
+.pjxs,
+.yjxs,
+.ptxs {
+	display: block;
+}
+
+.tiaozhuan {
+	width: 38px;
+	height: 281px;
+	position: fixed;
+	left: 100px;
+	bottom: 200px;
+	z-index: 9999;
+	text-align: center;
+	display: none;
+}
+
+.tiaozhuan a {
+	display: block;
+	width: 100%;
+	height: 38px;
+	margin-top: 2px;
+	background: #e8e8e8;
+}
+
+.tiaozhuan .huiding {
+	margin-top: 10px;
+}
+
+.mingzi {
+	overflow: hidden;
+	text-overflow: ellipsis;
+	display: -webkit-box;
+	-webkit-line-clamp: 2;
+	-webkit-box-orient: vertical;
+}
+
+.rightfuwu {
+	width: 32px;
+	height: 578px;
+	position: fixed;
+	right: 0;
+	bottom: 80px;
+	z-index: 999;
+}
+
+.yhu {
+	width: 32px;
+	height: 32px;
+	margin: 0 auto;
+	padding-top: 67px;
+}
+
+.shoucang {
+	width: 32px;
+	height: 32px;
+	margin: 2px auto 0;
+}
+
+.gouwuche {
+	width: 32px;
+	height: 112.4px;
+	margin: 2px auto 0;
+}
+
+.kefu {
+	height: 329px;
+	width: 32px;
+	margin: 2px auto 0;
+	position: relative;
+	background: #f8f8f8;
+}
+
+.kf {
+	width: 32px;
+	height: 32px;
+	margin: 0 auto;
+}
+
+.ewm {
+	width: 32px;
+	height: 98px;
+	position: absolute;
+	bottom: 60px;
+	background: #fff;
+}
+
+.ewm a {
+	display: block;
+	width: 32px;
+	height: 32px;
+	margin: 1px auto 0;
+	text-align: center;
+	line-height: 32px;
+	color: #CE0000;
+	background: #f8f8f8;
+}
+
+.yhu a {
+	display: block;
+	width: 32px;
+	height: 32px;
+	text-align: center;
+	line-height: 32px;
+	color: #CE0000;
+}
+
+.yhu {
+	background: #f8f8f8;
+	position: relative;
+}
+
+.shoucang a {
+	display: block;
+	width: 32px;
+	height: 32px;
+	text-align: center;
+	line-height: 32px;
+	color: #ce0000;
+	background: #f8f8f8;
+}
+
+.gouwuche>a {
+	display: block;
+	width: 32px;
+	height: 32px;
+	text-align: center;
+	line-height: 32px;
+	color: #ce0000;
+	background: #f8f8f8;
+}
+
+.tex {
+	text-align: center;
+	display: block;
+	width: 12px;
+	height: auto;
+	padding: 0 10px;
+	background: #f8f8f8;
+}
+
+.gouwuche a:nth-child(3) {
+	line-height: 20px;
+	background: #f8f8f8;
+}
+
+.kf a {
+	display: block;
+	width: 32px;
+	height: 32px;
+	text-align: center;
+	line-height: 32px;
+	color: #1FB1FE;
+	background: #f8f8f8;
+}
+
+.Liquor_commodity li img:hover {
+	transition: .3s;
+	transform: scale(1.1);
+}
+
+.waitao {
+	width: 160px;
+	height: 160px;
+	margin: 0 auto;
+	overflow: hidden;
+}
+
+.baijiulie li img:hover {
+	transition: .3s;
+	transform: scale(1.05);
+}
+
+
+/*.yhu span{
+	display: block;
+	width: 108px;
+	height: 32px;
+	position: absolute;
+	background: red;
+	bottom: 0;
+	right: 0;
+}
+*/

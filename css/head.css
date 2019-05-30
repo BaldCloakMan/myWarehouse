@@ -1,0 +1,936 @@
+#head_big_boxOne {
+	width: 100%;
+	height: 100%;
+	background: white;
+}
+
+#head_boxOne {
+	width: 100%;
+	height: 30px;
+	background: #f5F5F5;
+	line-height: 30px;
+	color: #666;
+}
+
+#head_boxOne .right_boxOne li {
+	line-height: 30px;
+}
+
+.head_box_contentOne {
+	width: 1190px;
+	height: 30px;
+	margin: 0 auto;
+	position: relative;
+}
+
+#head_boxOne .left_box .iconfont {
+	font-size: 12px;
+	color: #ce0000;
+}
+
+#head_boxOne .left_box span:nth-child(2) {
+	color: #999999;
+}
+
+#head_boxOne .left_box span:nth-child(4) {
+	padding-left: 15px;
+}
+
+#head_boxOne a {
+	color: #666;
+}
+
+.dz .iconfont {
+	color: #CE0000;
+}
+
+.yhm {
+	color: #CE0000;
+}
+
+.left-box {
+	display: none;
+}
+
+#head_boxOne .right_boxOne {
+	width: 370px;
+	height: 30px;
+	/*position: relative;*/
+	position: absolute;
+	top: 0;
+	right: 0;
+	z-index: 999;
+}
+
+#head_boxOne .right_boxOne li {
+	text-align: center;
+	width: 90px;
+	float: left;
+}
+
+#head_boxOne .right_boxOne img {
+	width: 79px;
+	height: 94px;
+}
+
+#head_boxOne .right_boxOne i {
+	font-size: 12px;
+	padding-left: 6px;
+	color: #999999;
+}
+
+#head_boxOne .right_boxOne li a {
+	color: #999999;
+}
+
+#head_boxOne .right_boxOne li:nth-child(3) {
+	color: #CE0000;
+}
+
+#head_boxOne .right_boxOne li:nth-child(3) i {
+	color: #CE0000;
+}
+
+#head_boxOne .right_boxOne>ul>li:nth-child(3)>a {
+	color: #CE0000;
+}
+
+#head_boxOne .right_boxOne>ul ul a {
+	display: block;
+	background: #FFF;
+	text-align: left;
+	padding-left: 12px;
+}
+
+#head_boxOne .right_boxOne li:hover {
+	background: white;
+	cursor: pointer;
+}
+
+#head_boxOne .right_boxOne li ul {
+	display: none;
+	text-align: left;
+}
+
+#head_boxOne .right_boxOne li ul li a:hover {
+	background: #F5F5F5;
+	color: #CE0000;
+	cursor: pointer;
+}
+
+#head_boxOne .right_boxOne li:hover ul {
+	display: block;
+}
+
+.head_box_contentOne>.right_boxOne span {
+	display: block;
+	float: left;
+	width: 3px;
+	height: 30px;
+	color: #999999;
+}
+
+#Search_box {
+	width: 1190px;
+	height: 115px;
+	margin: 0 auto;
+}
+
+.head_logo {
+	width: 228px;
+	height: 75px;
+	padding: 20px 0;
+	float: left;
+	text-align: center;
+	line-height: 75px;
+}
+
+.search_right_box {
+	width: 702px;
+	height: 100px;
+	float: right;
+}
+
+.search_inp_box {
+	width: 530px;
+	height: 110px;
+	overflow: hidden;
+	float: left;
+}
+
+.search_inp {
+	width: 530px;
+	height: 40px;
+	margin-top: 24px;
+	position: relative;
+	z-index: 5;
+}
+
+.search_inp ul {
+	width: 84px;
+	height: 36px;
+	background: #F5F5F5;
+	border: 2px solid #CE0000;
+	font-size: 14px;
+	position: relative;
+	float: left;
+}
+
+.search_inp ul li {
+	width: 73px;
+	height: 36px;
+	line-height: 36px;
+	padding-left: 10px;
+}
+
+.search_inp ul li:nth-child(3) {
+	color: #CE0000;
+}
+
+.search_inp ul li~li {
+	display: none;
+	width: 73px;
+	height: 22px;
+	line-height: 22px;
+	background: white;
+}
+
+.search_inp ul:hover {
+	height: 80px;
+	position: absolute;
+}
+
+.search_inp ul:hover li~li {
+	display: block;
+}
+
+.search_inp ul li~li:hover {
+	color: #CE0000;
+}
+
+.search_inp i {
+	font-size: 14px;
+	padding-right: 10px;
+	position: absolute;
+	right: 0px;
+	top: 10.4px;
+}
+
+.search_inp input {
+	width: 375px;
+	height: 36px;
+	border: 2px solid #CE0000;
+	border-left: 0px;
+	float: left;
+	position: relative;
+}
+
+.search_btn {
+	color: #fff;
+	background: #CE0000;
+	font-size: 16px;
+	width: 65px;
+	height: 40px;
+	float: right;
+	border: none;
+	outline: none;
+}
+
+.hot_search_box li {
+	float: left;
+}
+
+.buy_box {
+	width: 172px;
+	height: 100px;
+	float: right;
+	position: relative;
+}
+
+.cartsAll {
+	display: block;
+	width: 114px;
+	height: 37px;
+	float: right;
+	margin-top: 24px;
+	line-height: 38px;
+	padding: 0 0 0 16px;
+	border: 1px solid #EAEAEA;
+	background: #F5F5F5;
+	border-bottom: 1px solid #FFFFFF;
+	z-index: 2;
+	position: relative;
+	z-index: 1;
+	cursor: pointer;
+}
+
+.cartsAll .car {
+	width: 13px;
+	height: 12.8px;
+	line-height: 12.8px;
+	font-size: 13px;
+	margin-right: 5px;
+	float: left;
+	margin-top: 12.6px;
+}
+
+.cartsAll>span {
+	display: block;
+	width: 50px;
+	height: 38px;
+	font-size: 14px;
+	float: left;
+}
+
+.cartsAll .num {
+	width: 24px;
+	height: 20px;
+	background: url(../img/car.png)no-repeat -24px 0px;
+	text-align: center;
+	line-height: 38px;
+	position: relative;
+	top: -6px;
+	float: left;
+}
+
+.num>span {
+	width: 24px;
+	height: 20px;
+	line-height: 20px;
+	color: white;
+	display: block;
+	font-size: 12px;
+	text-align: center;
+	position: absolute;
+	top: -2px;
+}
+
+.cartsAll em {
+	display: block;
+	width: 13px;
+	height: 13px;
+	background: url(../img/car.png)no-repeat;
+	background-position: -54px -3px;
+	float: left;
+	margin: 12.5px 0 0 -5px;
+}
+
+.goods_all {
+	width: 320px;
+	height: 69px;
+	float: right;
+	border: 1PX solid #EAEAEA;
+	background: #FFFFFF;
+	position: absolute;
+	top: 62px;
+	right: 0px;
+	line-height: 69px;
+	display: none;
+}
+
+.goods_all img {
+	width: 50px;
+	height: 47.53px;
+	padding-left: 10px;
+	margin-right: 6px;
+}
+
+.hot_search_box ul {
+	padding-top: 10px;
+}
+
+.hot_search_box ul li {
+	margin-right: 20px;
+}
+
+#head_nav_box {
+	width: 100%;
+	height: 38px;
+	border-bottom: 2px solid #CE0000;
+}
+
+.head_box_nav_content {
+	width: 1190px;
+	height: 40px;
+	margin: 10px auto 0;
+}
+
+.head_box_nav_content li {
+	float: left;
+	font-size: 16px;
+	width: 228px;
+	height: 40px;
+	text-align: center;
+	line-height: 40px;
+}
+
+.head_box_nav_content>ul>li:nth-child(1) {
+	background: #CE0000;
+}
+
+.head_box_nav_content li a {
+	display: block;
+	width: 192px;
+	height: 40px;
+	padding: 0 18px;
+	text-align: left;
+	float: left;
+	color: white;
+}
+
+.head_box_nav_content li a>i {
+	width: 20px;
+	height: 20px;
+	line-height: 20px;
+	margin-top: 10px;
+	font-size: 20px;
+	display: block;
+	float: right;
+}
+
+.head_box_nav_content li~li {
+	width: 100px;
+	height: 40px;
+	padding: 0 20px;
+}
+
+.head_box_nav_content>ul>li:nth-child(3) {
+	position: relative;
+}
+
+.head_box_nav_content>ul>li:nth-child(3) span {
+	display: block;
+	width: 112px;
+	height: 36px;
+	background: url(../img/no-open.gif)no-repeat;
+	position: absolute;
+	top: -27px;
+	right: -20px;
+}
+
+.Menu {
+	width: 228px;
+	height: 532px;
+	background: rgba(245, 245, 245, 0.95);
+	float: left;
+	padding-top: 8px;
+	position: relative;
+	z-index: 999;
+	display: none;
+}
+
+.Menu ul li .Rice_wine>span {
+	width: 14px;
+}
+
+.head_box_nav_content .Menu li {
+	width: 228px;
+	height: 69.56px;
+	padding: 6px 0;
+	float: left;
+}
+
+.Menu li:nth-child(2),
+.Menu li:nth-child(3) {
+	height: 89.33px;
+}
+
+.Menu li div {
+	padding: 0 18px;
+}
+
+.Menu li div:nth-child(1) {
+	height: 16px;
+	line-height: 16px;
+}
+
+.Menu li div:nth-child(1) a {
+	height: auto;
+	color: #666;
+}
+
+.Menu li div:nth-child(2) {
+	padding: 0 12px;
+	height: 40px;
+	margin-top: 6px;
+}
+
+.Menu>ul>li:nth-child(2)>div:nth-child(2),
+.Menu>ul>li:nth-child(3)>div:nth-child(2) {
+	height: 60px;
+}
+
+.Menu li div:nth-child(2) a {
+	width: auto;
+	height: auto;
+	line-height: 16px;
+	font-size: 12px;
+	margin-left: 9px;
+	margin-right: 10px;
+	padding: 2px 0;
+	color: #666;
+}
+
+.Menu li a {
+	padding: 0 0;
+	width: auto;
+	float: left;
+}
+
+.Menu li span {
+	color: #666;
+	font-size: 14px;
+	float: left;
+}
+
+.Menu ul li ul {
+	position: absolute;
+	top: 0;
+	left: 228px;
+	width: 700px;
+	height: 540px;
+	background: #FFFFFF;
+}
+
+.Menu span {
+	width: 120px;
+	float: left;
+}
+
+.Menu ul li .Liquor_list_brand {
+	width: 100%;
+	height: 132px;
+	margin: 0;
+	padding: 0;
+}
+
+.Menu ul .Liquor_list_brand div {
+	width: 580px;
+	height: 111.11px;
+	float: left;
+	padding: 7px 0 0;
+	margin: 0;
+}
+
+.Menu ul li div:nth-child(3) a {
+	color: #666666;
+	margin: 0;
+	padding: 5px 16px 5px 0;
+}
+
+.Menu ul li div .Foreign_wine_brand a {
+	padding: 5px 15px 5px 0;
+}
+
+.Menu ul li .Liquor_list_flavor {
+	width: 100%;
+	height: 76.56px;
+	margin: 0;
+	padding: 0;
+}
+
+.Menu ul .Liquor_list_flavor div {
+	width: 580px;
+	height: 55.56px;
+	float: left;
+	padding: 7px 0 0;
+	margin: 0;
+}
+
+.Menu ul li .Liquor_origin {
+	width: 100%;
+	height: 48.78px;
+	margin: 0;
+	padding: 0;
+}
+
+.Menu ul .Liquor_origin div {
+	width: 580px;
+	height: 27.78px;
+	float: left;
+	padding: 7px 0 0;
+	margin: 0;
+}
+
+.Menu ul li .Liquor_price_range {
+	width: 100%;
+	height: 48.78px;
+	margin: 0;
+	padding: 0;
+}
+
+.Menu ul .Liquor_price_range div {
+	width: 580px;
+	height: 27.78px;
+	float: left;
+	padding: 7px 0 0;
+	margin: 0;
+}
+
+.Menu ul li .Wine_brands {
+	width: 100%;
+	height: 76.56px;
+	margin: 0;
+	padding: 0;
+}
+
+.Menu ul .Wine_brands div {
+	width: 580px;
+	height: 55.56px;
+	float: left;
+	padding: 7px 0 0;
+	margin: 0;
+}
+
+.Menu ul li .Wine_brands~li {
+	width: 100%;
+	height: 48.78px;
+	margin: 0;
+	padding: 0;
+}
+
+.Menu ul li .Wine_brands~li div {
+	width: 580px;
+	height: 27.78px;
+	float: left;
+	padding: 7px 0 0;
+	margin: 0;
+}
+
+.Menu ul li .Foreign_wine_brand {
+	width: 100%;
+	height: 76.56px;
+	margin: 0;
+	padding: 0;
+}
+
+.Menu ul .Foreign_wine_brand div {
+	width: 580px;
+	height: 55.56px;
+	float: left;
+	padding: 7px 0 0;
+	margin: 0;
+}
+
+.Menu ul li .Foreign_wine_brand~li {
+	width: 100%;
+	height: 48.78px;
+	margin: 0;
+	padding: 0;
+}
+
+.Menu ul li .Foreign_wine_brand~li div {
+	width: 580px;
+	height: 27.78px;
+	float: left;
+	padding: 7px 0 0;
+	margin: 0;
+}
+
+.Menu ul li .Beer_brand {
+	width: 100%;
+	height: 76.56px;
+	margin: 0;
+	padding: 0;
+}
+
+.Menu ul .Beer_brand div {
+	width: 580px;
+	height: 55.56px;
+	float: left;
+	padding: 7px 0 0;
+	margin: 0;
+}
+
+.Menu ul li .Beer_brand~li {
+	width: 100%;
+	height: 48.78px;
+	margin: 0;
+	padding: 0;
+}
+
+.Menu ul li .Beer_brand~li div {
+	width: 580px;
+	height: 27.78px;
+	float: left;
+	padding: 7px 0 0;
+	margin: 0;
+}
+
+.Menu ul li .Yellow_wine_brand {
+	width: 100%;
+	height: 48.78px;
+	margin: 0;
+	padding: 0;
+}
+
+.Menu ul .Yellow_wine_brand div {
+	width: 580px;
+	height: 27.78px;
+	float: left;
+	padding: 7px 0 0;
+	margin: 0;
+}
+
+.Menu ul li .Yellow_wine_brand~li {
+	width: 100%;
+	height: 48.78px;
+	margin: 0;
+	padding: 0;
+}
+
+.Menu ul li .Yellow_wine_brand~li div {
+	width: 580px;
+	height: 27.78px;
+	float: left;
+	padding: 7px 0 0;
+	margin: 0;
+}
+
+.Menu ul li .One_click_Selection {
+	width: 100%;
+	height: 48.78px;
+	margin: 0;
+	padding: 0;
+}
+
+.Menu ul .One_click_Selection div {
+	width: 580px;
+	height: 27.78px;
+	float: left;
+	padding: 7px 0 0;
+	margin: 0;
+}
+
+.Menu ul li .One_click_Selection~li {
+	width: 100%;
+	height: 48.78px;
+	margin: 0;
+	padding: 0;
+}
+
+.Menu ul li .One_click_Selection~li div {
+	width: 580px;
+	height: 27.78px;
+	float: left;
+	padding: 7px 0 0;
+	margin: 0;
+}
+
+.Menu li div:nth-child(2) a:hover {
+	color: #CE0000;
+	cursor: pointer;
+}
+
+#shdz {
+	width: 800px;
+	height: 433px;
+	background: gray;
+	position: fixed;
+	bottom: 50%;
+	margin-bottom: -221.5px;
+	left: 50%;
+	margin-left: -400px;
+	z-index: 1999;
+	display: none;
+}
+
+.miss {
+	width: 30px;
+	height: 30px;
+	position: absolute;
+	top: -15px;
+	right: -15px;
+	background: url(https://www.1919.cn/js/layer/skin/default/icon.png)no-repeat -180px -31px;
+}
+
+.sao {
+	width: 800px;
+	height: 275px;
+	background: red;
+	overflow: hidden;
+}
+
+.sao img {
+	width: 100%;
+	height: 100%;
+}
+
+.di {
+	width: 700px;
+	height: 60px;
+	background: white;
+	position: absolute;
+	top: 128px;
+	left: 50%;
+	margin-left: -350px;
+}
+
+.di>a {
+	display: block;
+	width: 90px;
+	height: 60px;
+	box-sizing: border-box;
+	padding-right: 10px;
+	float: left;
+	font-size: 16px;
+	text-align: center;
+	line-height: 60px;
+	color: #434343;
+}
+
+.di i {
+	display: block;
+	float: right;
+	border: 5px solid transparent;
+	border-top: 5px solid #333333;
+	margin-top: 28px;
+}
+
+.di>span {
+	display: block;
+	width: 1px;
+	height: 30px;
+	background: #E5E5E5;
+	float: left;
+	margin-top: 15px;
+}
+
+.di>input {
+	width: 480px;
+	height: 60px;
+	border: none;
+	box-sizing: border-box;
+	padding: 20px 10px 20px 20px;
+	font-size: 16px;
+	float: left;
+	outline:none
+}
+
+.di button {
+	padding: 0;
+	width: 129px;
+	height: 60px;
+	border: none;
+	font-size: 16px;
+}
+
+.di>div {
+	width: 700px;
+	height: 232px;
+	background: white;
+	box-sizing: border-box;
+	padding: 10px 20px;
+}
+
+.youbox {
+	width: 137.56px;
+	height: 30.2px;
+	line-height: 30.2px;
+	float: left;
+	text-align: center;
+	font-size: 14px;
+}
+
+.fg {
+	display: block;
+	width: 1px;
+	height: 28px;
+	background: #E5E5E5;
+	float: left;
+	margin: 0 25px 0 25px;
+}
+
+.sou {
+	width: 660px;
+	height: 41px;
+}
+
+.init {
+	display: block;
+	float: right;
+	width: 76px;
+	background: #333333;
+	color: #fff;
+}
+.sou input{
+	width: 270px;
+	height: 28px;
+	
+}
+.sydf{
+	width: 660px;
+	height: 180px;
+	background: white;
+	border-top: 1px solid #E5E5E5;
+	overflow: auto;
+}
+.sydf>div{
+	margin-top: 12px;
+	margin-bottom: 4px;
+	border-bottom: 1px solid #E5E5E5;
+}
+.sydf>div:after{
+	content: "";
+	display: block;
+	clear: both;
+}
+.sydf div span{
+	display: block;
+	width: 40px;
+	height: 20px;
+	text-align: center;
+	line-height: 20px;
+	font-size: 14px;
+	float: left;
+}
+.sydf div ul{
+	width: 580.4px;
+	height: auto;
+	float: right;
+}
+.sydf div li{
+	width: 84px;
+	height: 20.8px;
+	float: left;
+}
+.fang{
+	display: none;
+	margin-top: 10px;
+	position: relative;
+}
+.fang:after{
+	content: "";
+	display: block;
+	position: absolute;
+	top: -14px;
+    left: 70px;
+    border: 7px solid transparent;
+    border-bottom: 7px solid white;
+}
+.di{box-shadow: 5px 5px 10px #c1cde3;}
+.tan{
+	position: absolute;
+	background: white;
+	top: 43px;
+    left: 208px;
+    width: 275px;
+}
+.tan li:after{
+	content: "";
+	display: block;
+	clear: both;
+}
+.tan li>span:nth-child(1){
+	line-height: 32px;
+	display: block;
+	float: left;
+}
+.tan li>span:nth-child(2){
+	line-height: 32px;
+	display: block;
+	float: right;
+}
+.tan ul{
+	display: none;
+}

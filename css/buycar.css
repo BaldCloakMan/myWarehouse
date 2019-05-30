@@ -1,0 +1,513 @@
+#head_big_boxOne {
+	width: 100%;
+	height: 100%;
+	background: white;
+}
+
+#head_boxOne {
+	width: 100%;
+	height: 30px;
+	background: #f5F5F5;
+	line-height: 30px;
+	color: #666;
+}
+
+#head_boxOne .right_boxOne li {
+	line-height: 30px;
+}
+
+.head_box_contentOne {
+	width: 1190px;
+	height: 30px;
+	margin: 0 auto;
+	position: relative;
+}
+
+#head_boxOne .left_box .iconfont {
+	font-size: 12px;
+	color: #ce0000;
+}
+
+#head_boxOne .left_box span:nth-child(2) {
+	color: #999999;
+}
+
+#head_boxOne .left_box span:nth-child(4) {
+	padding-left: 15px;
+}
+
+#head_boxOne a {
+	color: #666;
+}
+
+#head_boxOne .left_box {
+	float: left;
+}
+
+#head_boxOne .right_boxOne {
+	width: 370px;
+	height: 30px;
+	position:absolute ;
+	z-index: 999;
+	top: 0;
+	right: 0;
+}
+.dz .iconfont{
+			color: #CE0000;
+		}
+		.yhm{
+			color: #CE0000;
+		}
+#head_boxOne .right_boxOne li {
+	text-align: center;
+	width: 90px;
+	float: left;
+}
+
+#head_boxOne .right_boxOne img {
+	width: 79px;
+	height: 94px;
+}
+
+#head_boxOne .right_boxOne i {
+	font-size: 12px;
+	padding-left: 6px;
+	color: #999999;
+}
+
+#head_boxOne .right_boxOne li a {
+	color: #999999;
+}
+
+#head_boxOne .right_boxOne li:nth-child(3) {
+	color: #CE0000;
+}
+
+#head_boxOne .right_boxOne li:nth-child(3) i {
+	color: #CE0000;
+}
+
+#head_boxOne .right_boxOne>ul>li:nth-child(3)>a {
+	color: #CE0000;
+}
+
+#head_boxOne .right_boxOne>ul ul a {
+	display: block;
+	background: #FFF;
+	text-align: left;
+	padding-left: 12px;
+}
+
+#head_boxOne .right_boxOne li:hover {
+	background: white;
+	cursor: pointer;
+}
+
+#head_boxOne .right_boxOne li ul {
+	display: none;
+	text-align: left;
+}
+
+#head_boxOne .right_boxOne li ul li a:hover {
+	background: #F5F5F5;
+	color: #CE0000;
+	cursor: pointer;
+}
+
+#head_boxOne .right_boxOne li:hover ul {
+	display: block;
+}
+
+.head_box_contentOne>.right_boxOne span {
+	display: block;
+	float: left;
+	width: 3px;
+	height: 30px;
+	color: #999999;
+}
+
+#neirong {
+	width: 1190px;
+	height:auto;
+	margin: 0 auto;
+	position: relative;
+	overflow: hidden;
+
+}
+
+.zuoup {
+	width: 320px;
+	height: 115px;
+	position: absolute;
+	top: 0;
+	left: 0;
+	line-height: 115px;
+	font-size: 24px;
+	font-weight: bold;
+}
+
+.sousuo {
+	width: 474px;
+	height: 36px;
+	position: absolute;
+	right: 0;
+	top: 37.5px;
+}
+
+.xiala {
+	width: 70px;
+	height: 32px;
+	padding: 0 0 0 10px;
+	line-height: 32px;
+	font-size: 14px;
+	float: left;
+	border: 2px solid #CE0000;
+}
+
+.xiala span {
+	float: right;
+	padding-right: 5px;
+}
+
+.sousuo input {
+	float: left;
+	width: 323px;
+	height: 32px;
+	background: none;
+	border: 2px solid #CE0000;
+	border-left: none;
+	outline: none;
+}
+
+.zhao {
+	width: 65px;
+	height: 36px;
+	float: left;
+	line-height: 34px;
+	text-align: center;
+	background: #CE0000;
+	font-size: 16px;
+	border-left: none;
+	color: white;
+}
+
+.xuanzhe {
+	width: 80px;
+	height: 44px;
+	border: 2px solid #CE0000;
+	border-top: none;
+	float: left;
+	display: none;
+}
+
+.xuanzhe span {
+	display: block;
+	font-size: 14px;
+	line-height: 22px;
+	padding-left: 10px;
+}
+
+.buycarsome {
+	width: 372px;
+	height: 80.6px;
+	background: url(https://www.1919.cn/images/shopcart.png)no-repeat;
+	position: absolute;
+	top: 135px;
+	left: 50%;
+	margin-left: -186px;
+	/*display: none;*/
+	
+}
+.buzai{
+	position: relative;
+	width: 1190px;
+	height: 350px;
+}
+.buycarsome:after{
+	content: "";
+	display: block;
+	clear: both;
+}
+
+.buycarsome div {
+	font-size: 18px;
+	padding-left: 120px;
+}
+
+.buycarsome a {
+	display: block;
+	height: 34px;
+	width: 100px;
+	color: white;
+	background: #E01329;
+	float: left;
+	margin-left: 121px;
+	text-align: center;
+	line-height: 34px;
+	font-size: 14px;
+	border-radius: 4px;
+	margin-top: 20px;
+}
+
+.buycarsome span {
+	display: block;
+	height: 32px;
+	width: 128PX;
+	color: #E01329;
+	background: white;
+	float: left;
+	margin-left: 20px;
+	text-align: center;
+	line-height: 32px;
+	font-size: 14px;
+	border: solid 1px rgb(229, 229, 229);
+	border-radius: 4px;
+	margin-top: 20px;
+}
+.foot_box{
+	border-top: 1px solid #ccc;
+}
+
+.mycar{
+	width: 1190px;
+	height: 294px;
+	margin-top: 115px;
+	margin-bottom: 180px;
+}
+.mycar:after{
+	content: "";
+	display: block;
+	clear: both;
+}
+.mycarhead input{
+	position: relative;
+	top: 2px;
+	/*margin-right:5px;*/
+	margin: 2px 5px 3px 4px;
+	
+}
+.mycarhead{
+	width: 1150px;
+	height: 44px;
+	padding: 0 20px;
+	    background: #f5f5f5;
+	line-height: 44px;
+}
+.Select_All{
+display: block;
+float: left;
+width: 120px;
+height: 44px;
+}
+.My_merchandise{
+	display: block;
+	width: 330px;
+	float: left;
+}
+.goodsprice{
+	display: block;
+	float: left;
+	width: 190px;
+}
+.goodssum{
+	display: block;
+	float: left;
+	width: 220px;
+}
+.Subtotal{
+	display: block;
+	float: left;
+	width: 200px;
+}
+.Operation{
+	display: block;
+	float: left;
+	width: auto;
+}
+.Warehouse{
+	width: 1150px;
+	height: 48px;
+	padding: 0 20px;
+	line-height: 48px;
+	border: solid 1px #E5E5E5;
+	margin-top: 20px;
+}
+.Warehouse input{
+	position: relative;
+	top: 2px;
+	margin: 2px 3px 3px 4px;
+}
+
+.Warehouse i{
+	font-size: 12px;
+}
+.Product_details{
+	width: 1115px;
+	height: 80px;
+	padding: 15px 55px 15px 20px;
+	background: #f3fbfe;
+	border: 1px solid #E5E5E5; 
+	border-top: none;
+}
+.xuanzhong{
+	float: left;
+}
+.xuanzhong input{
+	margin: 2px 3px 3px 4px;
+}
+.shangpinimg{
+	float: left;
+	width: 80px;
+	height: 80px;
+	margin-left: 10px;
+}
+.shangpinimg img{
+	width: 100%;
+	height: 100%;
+}
+.sahngpinname{
+	width: 160px;
+	height: 80px;
+	float: left;
+	margin-left: 10px;
+	position: relative;
+}
+.sahngpinname p{
+	display: block;
+}
+.sahngpinname div{
+	width: 88px;
+	height: 22px;
+	background: url(../img/TIM图片20190521195641.png)no-repeat;
+	position: absolute;
+	bottom: 0;
+	background-size: 100% 100%;
+}
+.itprice{
+	float: left;
+	width: 150px;
+	height: 17.6px;
+	margin-left: 165px;
+}
+.jiajian{
+	float: left;
+	width: 123.13px;
+	height: 48.6px;
+	margin-left: 10px;
+}
+.jiajian input{
+	float: left;
+	width: 55px;
+	height: 27px;
+	text-align: center;
+}
+.jiajian span{
+	float: left;
+	width: 32px;
+	height: 31px;
+	text-align: center;
+}
+.jiajian span:nth-child(1){
+	background: url(https://www.1919.cn/images/icon-subbtn.png)no-repeat;
+	background-size: 100% 100%;
+}
+.jiajian span:nth-child(3){
+	background: url(https://www.1919.cn/images/icon-addbtn.png)no-repeat;
+	background-size: 100% 100%;
+}
+.jiajian p{
+	text-align: center;
+}
+.buyprice{
+	float: left;
+	width: 150px;
+	height: 20.8px;
+	margin-left: 125px;
+}
+.caozuo{
+	width: 48px;
+	height: 55.2px;
+	float: left;
+	margin-left: 50px;
+}
+.caozuo span{
+	display: block;
+	width: 48px;
+	line-height: 17.6px;
+	margin-bottom: 10px;
+}
+.caozuo a{
+	display: block;
+	width: 48px;
+	line-height: 17.6px;
+}
+.jiesuanbox{
+	width: 1170px;
+	height: 60px;
+	padding-left: 20px;
+	margin-top: 10px;
+	line-height: 60px;
+	position: relative;
+	background: #F5F5F5;
+	
+}
+.jiesuanbox>div{
+	float: left;
+}
+.jiesuanbox input{
+    margin: 2px 3px 3px 4px;
+    position: relative;
+    top: 2px;
+}
+.jiesuanbox span{
+	display: block;
+	float: left;
+	margin-left:20px ;
+}
+.jiesuanbox .jiesuanright{
+	
+	width: 435.46px;
+	height: 60.2px;
+	float: right;
+	padding-left: 70px;
+}
+.jiesuanright .zuobian{
+	width: 79.41px;
+	height: 40.2px;
+	padding: 10px 0;
+	float: left;
+}
+.zuobian a{
+	color: #E01329;
+}
+.zuobian span{
+	display: block;
+	float: left;
+	width: 79.41px;
+	height: 17.6px;
+	line-height: 17.6px;
+	margin: 0;
+}
+.zuobian span:nth-child(2){
+	margin:5px 0 0 0; 
+}
+.jiesuanright li:nth-child(1){
+	height: 60px;
+	line-height: 60px;
+	float: left;
+	margin-left: 50px;
+}
+.zongshu{
+	font-size: 16px;
+	color: #CE0000;
+}
+.gobuy{
+	float: right;
+	width: 120px;
+	height: 60px;
+	text-align: center;
+	line-height: 60px;
+	background: #CE0000;
+	font-size: 24px;
+	color: #FFFFFF;
+}

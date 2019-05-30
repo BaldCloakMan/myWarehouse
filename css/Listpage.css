@@ -1,0 +1,284 @@
+#List_allBodybox{
+	width: 100%;
+	height: 100%;
+	background: #F5F5F5;
+}
+#List_body_all{
+	width: 1190px;
+	height: 100%;
+	margin: 0 auto;
+	background: #F5F5F5;
+}
+.lei{
+	margin: 0 auto;
+	line-height: 32.8px;
+	margin: 10px 0 5px;
+	color: #E50012;
+	font-size: 14px;
+}
+.Property{
+	height: 381px;
+	color: #666;
+	overflow: hidden;
+}
+.Property li{
+	background: #eeeeee;
+	width: 1190px;
+	float: left;
+	border-bottom: 1px solid rgb(229,229,229);
+}
+.Property li:nth-child(1){
+	border-top: 1px solid rgb(229,229,229);
+	
+}
+.Property span{
+	width: 80px;
+	display: block;
+	float: left;
+	font-size: 14px;
+	line-height: 43px;
+	text-align: center;
+}
+.Property a:hover{
+	color: #E50012;
+	cursor: pointer;
+}
+.Property a{
+	display: block;
+	float: left;
+	margin: 3px 24px 4px 0px
+}
+.Property div{
+	background: #fff;
+	padding: 10px 30px 10px 20px;
+	width: 1060px;
+	float: left;
+}
+.Shutup{
+	width: 112px;
+	height: 26.45px;
+	background: #FFFFFF;
+	margin: 0 auto;
+	border-radius: 0 0 5px 5px;
+	text-align: center;
+	line-height: 26.45px;
+}
+.Shutup i{
+	display: block;
+	width: 24px;
+	height: 24px;
+	float: right;
+	background: url(https://www.1919.cn/images/img_downdrt_db.png) no-repeat 0 7px;
+}
+
+.Allcontent_box_content{
+	width:  1190PX;
+	margin: 0 auto;
+	margin-top: 15px;
+}
+.Allcontent_box_content:after{
+	content: "";
+	display: block;
+	clear: both;
+}
+.liebiaogg{
+	width: 280px;
+	height: 387.8px;
+	float: left;
+}
+.liebiaogg p{
+	display: block;
+	line-height: 40px;
+	background: white;
+	margin-top: 7.8px;
+	font-size: 14px;
+	padding-left: 8px;
+}
+.shangpinright{
+	width: 900px;
+	float: right;
+}
+.shangpintou{
+	height: 38px;
+	background: white;
+	border: 1px solid #E5E5E5;
+	color: #666;
+	
+}
+
+.shangpintou span{
+	display:block ;
+	float: left;
+	width: 97px;
+	height: 24px;
+	text-align: center;
+	line-height: 24px;
+	border-right: 1px solid #E5E5E5;
+	margin-top:7px ;
+}
+.shangpintou i{
+	position: relative;
+	top: 5px;
+	margin-top: 2px;
+	width: 14px;
+	height: 14px;
+	background: url(https://www.1919.cn/images/img_sort.png)no-repeat;
+}
+.xuanxiang{
+	background: #FAFAFA;
+	border: 1px solid rgb(229,229,229);
+	border-top: none;
+}
+.xuanxiang span{
+	display: block;
+	line-height: 38.6px;
+	padding-left: 20px;
+	cursor: pointer;
+}
+.xuanxiang i{
+	display: block;
+	width: 14px;
+	height: 14px;
+	float: left;
+	position: relative;
+	top: 14px;
+	background: url(https://www.1919.cn/images/img_checkbox.png) no-repeat;
+}
+.suoyoushangpin{
+	width: 910px;
+	margin-top: 9px;
+}
+.suoyoushangpin:after{
+	content: "";
+	display: block;
+	clear: both;
+}
+.suoyoushangpin li{
+	width: 218px;
+	height: 315.6px;
+	background: white;
+	float: left;
+	margin-right: 9px;
+	margin-top: 9px;
+	text-align: center;
+}
+.suoyoushangpin li>img{
+	width: 200px;
+	height: 200px;
+	margin-top: 12px;
+}
+.suoyoushangpin li div{
+	width: 200px;
+	height: 44px;
+	margin: 0 auto;
+}
+.suoyoushangpin li div>span:nth-child(1) span{
+	font-size: 12px;
+	color: #E50012;
+}
+.suoyoushangpin li div>span:nth-child(1){
+	display: block;
+	width: 110px;
+	height: 29.6px;
+	font-size: 20px;
+	text-align: left;
+	color: #E50012;
+	float: left;
+	margin-top: 10px;
+}
+.suoyoushangpin li div>span:nth-child(2){
+	display: block;
+	width: 80px;
+	float: right;
+	text-align: left;
+	margin-top: 16.8px;
+	color: #666666;
+	text-decoration:line-through ;
+}
+.suoyoushangpin p{
+	display: block;
+	width: 181px;
+	height: 38px;
+	text-align: left;
+	padding-left: 9px;
+	padding-bottom: 3px;
+}
+.suoyoushangpin i{
+	display: block;
+	width: 60px;
+	height: 22px;
+	margin-left: 9px;
+}
+.suoyoushangpin i em:nth-child(1){
+	display: block;
+	width: 30px;
+	height: 16px;
+	background: url(../img/TIM图片20190521142950.png)no-repeat;
+	background-size: 100% 100%;
+	float: left;
+}
+.suoyoushangpin i em:nth-child(2){
+	display: block;
+	width: 14px;
+	height: 14px;
+	float: right;
+	margin-top: 2px;
+	margin-right: 5px;
+	background: url(../img/TIM图片20190521143319.png)no-repeat;
+	background-size: 100% 100%;
+}
+.suoyoushangpin li:hover{
+	box-shadow:3px 3px 3px #d8d8d8, -1px -1px 2px #d8d8d8;;
+	
+}
+.next{
+	margin-top: 60px;
+	width: 910px;
+	height: 30.8px;
+	margin-bottom: 60px;
+	
+}
+.foot_box{
+	border-top: 1px rgb(229,229,229) solid;
+}
+.next ul{
+	width: 563.35px;
+	height: 30.8px;
+	float: right;
+}
+.next li:nth-child(3){
+	background: white;
+}
+.next span{
+	background: white;
+}
+.next ul li{
+	float: left;
+	width: 66px;
+	height: 28.8px;
+	border: 1px solid rgb(229,229,229);
+	font-size: 14px;
+	text-align: center;
+	line-height: 28.8px;
+	color: #666666;
+
+}
+.next ul li:nth-child(2){
+	border: none;
+	width: auto;
+	margin-right: 10px;
+	
+}
+.next span{
+	display: block;
+	float: left;
+	padding: 0px 12px;
+	border: solid 1px rgb(229,229,229);
+	margin-left: 9px;
+}
+
+/*.suoyoushangpin ul:nth-child(2){
+	display: none;
+}*/
+
+
